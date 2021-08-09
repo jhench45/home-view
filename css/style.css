@@ -1,0 +1,208 @@
+body {
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden; margin: 0;
+    padding: 0;
+  }
+
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color:#444;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:active,
+  a:focus {
+    
+    outline: none;
+    text-decoration: none;
+  }
+
+:root {
+    --accent:#08376B;
+    --accent2: #fcb414;
+}
+
+/** NAVBAR **/
+
+.navbar-brand{
+    color:var(--accent2) !important;
+    font-size: 42px !important;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block;
+}
+.navbar-brand span{
+    color:var(--accent);
+}
+
+.nav-item{
+    margin:5px;
+    
+}
+
+.nav-link{
+    font-weight: 700;
+    outline: none;
+}
+
+
+
+
+
+
+.nav-link.active {
+   color:var(--accent) !important;
+  }
+
+.navbar {
+    
+    background: #fff;
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  }
+
+.btn-login{
+    padding:10px 20px 10px 20px !important;
+    color:white !important;
+    background-color: var(--accent);
+}
+
+.btn-register{
+    padding:10px 20px 10px 20px !important;
+    color:white !important;
+    background-color: var(--accent2);
+}
+
+@media screen and (max-width: 992px) {
+
+    .nav-item{
+        margin:0;  
+    }
+
+    .nav-link{
+        color:rgb(66, 42, 42) !important ;
+        padding:10px !important;
+    }
+
+    
+    .btn-login, 
+    .btn-register{
+        background-color: transparent;padding:10px !important;
+    }
+
+    .img-fluid{display:none;}
+
+    #home{
+      height:90vh;
+      display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+padding: 0;
+background-color: aliceblue;
+    }
+
+    
+
+   
+    
+}
+
+/** ABOUT **/
+
+.row {
+  background: url('portfolio.jpg');
+  background-size: cover;
+  padding-bottom:10%;
+  }
+
+
+.img-fluid2{
+  width: 730px !important;
+  height: auto;
+}
+
+
+
+
+
+  .section-header {
+    margin-bottom: 30px;
+  }
+  
+  .section-header h2 {
+    font-size: 32px;
+    color: #0c2e8a;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+  
+  }
+  
+  .section-header h2:after{
+      content: "";
+      display: block; 
+      margin: 0 auto; 
+      width: 10%; 
+      padding-top: 20px; 
+      border-bottom: 5px solid #50d8af; 
+  }
+  
+  
+  
+  .section-header p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* About Section */
+  
+  #about {
+    padding: 0 0 0 0;
+    height:90vh;
+    background-color: aliceblue;
+  }
+  
+  #about .content h2 {
+    color: #0c2e8a;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  #about .content h3 {
+    color: #555;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+  }
+  
+  #about .content p {
+    line-height: 26px;
+  }
+  
+
+  #about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #about .content ul li {
+    padding-bottom: 10px;
+  }
+  
+
+  .heads{
+    height: auto;
+  }
